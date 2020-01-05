@@ -1,0 +1,185 @@
+body {
+    margin: 0px;
+    background-color: black;
+}
+#bg {
+    margin: auto;
+    padding: 0px;
+    background-image: url(../Image/backgroundyugi.jpg);
+    width: 1280px;
+    height: 960px;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+#topmenu {
+    width: 1280px;
+    height: 120px;
+}
+.borderbottom {
+    border-bottom:3px solid black;
+}
+#leftmenu {
+    float: left;
+    color:black;
+    margin-left: 47px;
+    width: 290px;
+}
+#leftmenu li {
+    display: inline;
+    color: black;
+    padding: 25px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#leftmenu a {
+    text-decoration: none;
+    color: black;
+}
+#leftmenu a:hover {
+    background-color: black;
+    color: white;
+}
+#logo {
+    float: left;
+    width: 560px;
+    height: 90px;
+}
+#rightmenu {
+    float: left;
+    margin-left: 20px;
+}
+#rightmenu li {
+    display: inline;
+    padding: 25px;
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#rightmenu a {
+    text-decoration: none;
+    color: black;
+}
+#rightmenu a:hover {
+    color: white;
+    background-color: black;
+    border-bottom:2px solid black ;
+}
+#horloge {
+    margin-top: 4px;
+    border: 1px solid black;
+    background-color: white;
+    height: 20px;
+    width: 350px;
+    float: right;
+    color: black;
+    text-align: center;
+    border-bottom-left-radius: 10px 10px;
+}
+#wrap {
+    margin-top: 50px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+    border: black 1px solid;
+    padding: 0;
+    height: 700px;
+
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.itemtosell {
+    height: 300px;
+    width: 33%;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+.titleitem {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.titleitem a:hover {
+    color: black;
+    border-bottom: 1px solid;
+}
+.titleitem a {
+    text-decoration: none;
+    color: black;
+}
+.price {
+    text-decoration: 1px black solid;
+    font-weight: bold;
+    text-align: center;
+    padding: 1px;
+}
+#section {
+    color:white ;
+    font-size: 30px;
+    text-align: center;
+    font-weight:bold;
+    background-color: #1a759a;
+    border-bottom:black 1px solid;
+}
+#content {
+    background-color: whitesmoke;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    border: 2px solid black;
+    padding: 0px;
+}
+#Topvente {
+    float: left;
+    margin: 0px;
+    background-color: grey;
+    width: 600px;
+    height: 25px;
+    border-bottom: 2px solid black;
+}
+#Titletopvente {
+    margin-left: 180px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+#topdeck {
+    margin-left: 238px;
+    float: left;
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    border: 2px solid black;
+}
+#yugivideo {
+    margin-top: 2px;
+    background-color: black;
+    padding: 0px;
+}
+#footer {
+    height: 80px;
+    background-image:url("../Image/footer.jpg");
+    background-position: center;
+    background-size: 100%;
+    border-bottom: black 3px solid;
+    border-left: black 3px solid;
+    border-right: black 3px solid;
+}
+#footer-text {
+    color: white;
+    margin-top: 30px;
+    margin-left: 460px;
+    float: left;
+}
