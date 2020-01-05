@@ -87,13 +87,11 @@ body {
     background-color: gray;
     border: black 1px solid;
     padding: 0;
-    height: 700px;
 
 }
 .wrapper {
     display: flex;
     flex-direction: row;
-    border: 1px solid red;
     justify-content: space-around;
     flex-wrap: wrap;
 }
